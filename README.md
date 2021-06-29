@@ -12,9 +12,7 @@ Below is the code that I originally created to obtain results for the 2017/2018 
 Sub AllStocksAnalysis()
     
     'To find out how long this Subroutine will take
-     Dim startTime As Single![2017 Stock Results](https://user-images.githubusercontent.com/72943588/123744911-53408a80-d864-11eb-97c7-d9385da47a5c.PNG)
-![2017 Stock Results](https://user-images.githubusercontent.com/72943588/123744936-618ea680-d864-11eb-8708-7879e20aabb7.PNG)
-
+     Dim startTime As Single
      Dim endTime As Single
      
      'To switch between different years
@@ -98,7 +96,7 @@ Sub AllStocksAnalysis()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
   End Sub
   ```
- This code worked well, but looped through the data multiple times, causing processing time to be upwards of .5 seconds when I ran it:
+ This code acheived what it was supposed to, but looped through the data multiple times, causing processing time to be upwards of .5 seconds when I ran it:
  
 [2017 Stock Analysis: 1st Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_OLD_2017.PNG)
 
