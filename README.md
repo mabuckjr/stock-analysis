@@ -97,6 +97,7 @@ Sub AllStocksAnalysis()
 
 End Sub
 ``
+
 This code worked well, but looped through the data multiple times, causing processing time to be upwards of .5 seconds when I ran it:
 [2017 Stock Analysis: 1st Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_OLD_2017.PNG)
 [2018 Stock Analysis: 1st Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_OLD_2018.PNG)
