@@ -171,7 +171,7 @@ By Creating an Index that referenced arrays that referenced arrays for tickerVol
    
    However, the return for the 2018 stocks was mostly negative, except ENPH and RUN which had great returns that year. See the picture linked below:
    
-   [2017 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2018%20Stock%20Results.PNG)
+   [2018 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2018%20Stock%20Results.PNG)
    
    ## Summary
    ### Advantages and Disadvantages of Refactoring Code
