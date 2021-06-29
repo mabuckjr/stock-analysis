@@ -99,6 +99,7 @@ Sub AllStocksAnalysis()
  This code worked well, but looped through the data multiple times, causing processing time to be upwards of .5 seconds when I ran it:
  
 [2017 Stock Analysis: 1st Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_OLD_2017.PNG)
+
 [2018 Stock Analysis: 1st Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_OLD_2018.PNG)
 #### Refactored Code
 By Creating an Index that referenced arrays that referenced arrays for tickerVolumes, tickerStartingPrices, and tickerEndingPrices, I created a subroutine that was much faster than the previous (see the refactored section of code and screenshots below):
@@ -159,6 +160,7 @@ By Creating an Index that referenced arrays that referenced arrays for tickerVol
     Next i
    ```
    [2017 Stock Analysis: 2nd Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+   
    [2018 Stock Analysis: 2nd Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
    
    As you can see, there is a significant decrease in the output time for the macro.
