@@ -166,8 +166,18 @@ By Creating an Index that referenced arrays that referenced arrays for tickerVol
    As you can see, there is a significant decrease in the output time for the macro.
    ### Stock Results
    In 2017, most of the stocks did pretty well! Only TERP had a negative return; for the most part, the other stocks had a great return that year! See below:
-   [2017 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2017%20Stock%20Results.PNG)
-   However, the return for the 2018 stocks was mostly negative, except ENPH and RUN which had great returns that year. See the picture linked below:
-   [2017 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2018%20Stock%20Results.PNG)
-   ## Summary
    
+   [2017 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2017%20Stock%20Results.PNG)
+   
+   However, the return for the 2018 stocks was mostly negative, except ENPH and RUN which had great returns that year. See the picture linked below:
+   
+   [2017 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2018%20Stock%20Results.PNG)
+   
+   ## Summary
+   ### Advantages and Disadvantages of Refactoring Code
+   #### Advantages
+   One of the biggest advantages to refactoring code is streamlining the work that the computer must do to run a subroutine, making the code run more smoothly. For instance, the first macro I created looped through the data multiple times, making the computer "work harder" and thus take longer. The new method made it easier for the computer to run the code since it only processed the data once. Refactoring can also make code easier to understand, which is helpful when working with a team. Practice makes progress, and I bet people who refactor often are also those that build on their skills so they can create more efficient code in the future.
+#### Disadvantages
+It seems like the biggest disadvantage to refactoring is how time-consuming the process can be. It's hard to figure out certain problems, so there are times where all you can do is experiment and ask for help either online or from a teammate.
+### Refactoring the Stock Analysis Script
+Our code greatly benefitted from refactoring it. It runs quicker and could quickly process even more data than before. It is actually easier to follow as well, since there aren't as many For-loops. I would say that my only problem with refactoring was that I got hung up on how to address 3b-3d for a few hours before I finally figured it out. While it was a great reward to see my code run so efficiently, I just wish I could have been more efficient myself ::):
