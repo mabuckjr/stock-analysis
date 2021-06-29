@@ -165,5 +165,9 @@ By Creating an Index that referenced arrays that referenced arrays for tickerVol
    
    As you can see, there is a significant decrease in the output time for the macro.
    ### Stock Results
+   In 2017, most of the stocks did pretty well! Only TERP had a negative return; for the most part, the other stocks had a great return that year! See below:
+   [2017 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2017%20Stock%20Results.PNG)
+   However, the return for the 2018 stocks was mostly negative, except ENPH and RUN which had great returns that year. See the picture linked below:
+   [2017 Stock Results](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/2018%20Stock%20Results.PNG)
    ## Summary
    
