@@ -5,6 +5,8 @@ The purpose of the project was to refactor some VBA code that I created. The ori
 ### Background
 The original data is distributed into 8 columns: Ticker, Date, Opening Price, High Price, Low Price, Closing Price, Adjusted Closing Price, and Volume of Trades. There are 2 different sheets representing the values for both 2017 and 2018. The twelve companies (represented by their tickers) are AY, CSIQ, DQ, ENPH, FSLR, HASI, JKS, RUN, SEDG, SPWR, TERP, and VSLR. For every day with active trades, the appropriate data is displayed in the columns. The ultimate goal was to extract the tickers, the total daily volume, and return for each stock from either the 2017 or 2018 sheet using one subroutine.
 ## Results
+### Old/New Code Comparison
+#### Old Code
 Below is the code that I originally created to obtain results for the 2017/2018 stock data:
 ``
 Sub AllStocksAnalysis()
@@ -96,8 +98,10 @@ Sub AllStocksAnalysis()
 End Sub
 ``
 This code worked well, but looped through the data multiple times, causing processing time to be upwards of .5 seconds when I ran it:
-
-
+[2017 Stock Analysis: 1st Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_OLD_2017.PNG)
+[2018 Stock Analysis: 1st Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_OLD_2018.PNG)
+#### Refactored Code
+By Creating an Index that referenced arrays that referenced arrays for tickerVolumes, tickerStartingPrices, and tickerEndingPrices, I created a subroutine that was much faster than the previous (see the refactored section of code and screenshots below):
 ```
  '1a) Create a ticker Index
     tickerindex = 0
@@ -154,5 +158,9 @@ This code worked well, but looped through the data multiple times, causing proce
         
     Next i
    ```
+   [2017 Stock Analysis: 2nd Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+   [2018 Stock Analysis: 2nd Method](https://github.com/mabuckjr/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
+   As you can see, there is a significant decrease in the output time for the macro.
+   ### Stock Results
    ## Summary
    
